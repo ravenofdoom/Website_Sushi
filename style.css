@@ -1,175 +1,159 @@
 body {
-    background-color: #f0e9d9ff;
-   
+  background-color: #f0e9d9ff;
+  box-sizing: border-box;
 }
 
 header {
-
-    display: flex;
-    margin: 0px 330px;
+  display: flex;
+  margin: 0px 260px;
 }
 
 .header {
-    display: flex;
-    padding-left: 90px;
-    gap: 70px;
-    width: 1905 px;
-    height: 155,54px;
-    margin: 0px 70px;
-    padding: 10px;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-
+  display: flex;
+  padding-left: 90px;
+  gap: 70px;
+  width: 1905 px;
+  height: 155, 54px;
+  margin: 0px 70px;
+  padding: 10px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
 }
 
 .header-right {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-left: 70px;
-    width: 310 px;
-    height: 155, 54px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 0px;
+  width: 310 px;
+  height: 155, 54px;
 }
 
 .header-right a:hover {
-    color: #e57f45;
-
+  color: #e57f45;
 }
 
 .headerbutton {
-
-    
-    background-color: #008387;
-    color: white;
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    width: 147px;
-    height: 52px;
-    border-top-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-
+  background-color: #008387;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  width: 147px;
+  height: 52px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: none;
 }
 
 .headerbutton:hover {
-    background-color: #187978;
+  background-color: #187978;
 }
 
 a {
-    color: #015253ff;
-    text-decoration: none;
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    font-weight: lighter;
+  position: relative;
+  color: #015253ff;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-a::before {
-    position:absolute;
-    content: "";
-    width: 20px;
-    height: 2px;
-    right: 1000px;
-    top: 10px;
-    background: red;
+nav a::before {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 3px;
+  left: -10px;
+  top: 24px;
+  background: #015253ff;
+}
+nav a:hover::before {
+  background-color: #e57f45;
 }
 
 nav {
-    display: flex;
-    background-color: #f0e9d9ff;
-    justify-content: center;
-    align-items: center;
-    padding-left: 50px;
-
+  display: flex;
+  background-color: #f0e9d9ff;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  gap: 20px;
 }
 
 nav a {
-
-    color: #015253ff;
-    padding: 14px 16px;
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    font-weight: lighter;
+  color: #015253ff;
+  padding: 14px 16px;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 nav a:hover {
+  color: #e57f45;
+}
 
-    color: #e57f45;
-}
-.intro {
-    width: 2540px;
-    height: 277;
-    background-image: url('img/Backround sushi3.svg');
-    background-repeat: no-repeat;
-    margin: 0px 300px;
-    padding: 0px;
-}
 span {
-    /* padding: 10px; */
+  /* padding: 10px; */
 }
-
-
-
 
 .intro {
-    width: 2033px;
-    height: 740;
-    background-image: url('img/Backround sushi3.svg');
-    background-repeat: no-repeat;
-    margin: 140px 410px;
-    padding: 0px;
-    display: flex;
+  width: 2033px;
+  height: 740;
+  background-image: url("./img/Backroundsushi3.svg");
+  background-repeat: no-repeat;
+  margin: 140px 310px;
+  padding: 0px;
+  display: flex;
 }
-
 
 .maintext {
-    width: 630px;
-    height: 277px;
-    /* display: flex; */
-
-
+  width: 630px;
+  height: 277px;
+  /* display: flex; */
 }
 
 .maintext2 {
-    width: 610px;
-    height: 102px;
+  width: 610px;
+  height: 102px;
 }
-
 
 .maintext3 {
-    width: 610px;
-    height: 93, 33px;
+  width: 610px;
+  height: 93, 33px;
 }
-h1 {
 
-    font-family: 'Yeseva One', serif;
-    font-size: 70px;
-    font-weight: 300;
-    color: #015253ff
+h1 {
+  font-family: "Yeseva One", serif;
+  font-size: 70px;
+  font-weight: 300;
+  color: #015253ff;
 }
 
 .sushipic {
-    width: 586x;
-    height: 600px;
-    padding-top: px;
-    padding-right: 0px;
+  width: 586x;
+  height: 600px;
+  padding-top: px;
+  padding-right: 0px;
 }
 
 h5 {
-    color: #6f695d;
-    font-size: 24px;
+  color: #6f695d;
+  font-size: 24px;
 }
 
 .ourrest {
-    background-color: #e57f45;
-    color: #f0e9da;
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    width: 215px;
-    height: 53px;
-    border-top-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+  background-color: #e57f45;
+  color: #f0e9da;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  width: 215px;
+  height: 53px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: none;
 }
