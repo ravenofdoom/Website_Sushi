@@ -1,50 +1,175 @@
-body{
-    background-image: url(./img/sushi3-about-pic1.webp); 
-    background-repeat: no-repeat;
-    font-family: 'Bebas Neue', sans-serif;
-    margin: 0;
-    paddin: 0;
+body {
+    background-color: #f0e9d9ff;
+   
 }
 
+header {
 
-.nav, .navbar {
+    display: flex;
+    margin: 0px 330px;
+}
+
+.header {
+    display: flex;
+    padding-left: 90px;
+    gap: 70px;
+    width: 1905 px;
+    height: 155,54px;
+    margin: 0px 70px;
+    padding: 10px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 70px;
+    width: 310 px;
+    height: 155, 54px;
+}
+
+.header-right a:hover {
+    color: #e57f45;
+
+}
+
+.headerbutton {
+
+    
+    background-color: #008387;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    width: 147px;
+    height: 52px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+.headerbutton:hover {
+    background-color: #187978;
+}
+
+a {
+    color: #015253ff;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::before {
+    position:absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    right: 1000px;
+    top: 10px;
+    background: red;
+}
+
+nav {
     display: flex;
     background-color: #f0e9d9ff;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
-    gap: 30px;;
-    font-size: 15px;
+    padding-left: 50px;
 
 }
 
-#table-button{
-    font-size: 1em;
-    display:inline;
-    height: 53px;
-    width: 146px;
-    color: white;
-    background-color: #008387;
-    border: none;
-    border-radius: 8px 0 8px 0;
-    font-family: 'Bebas Neue', sans-serif;
-    padding: 16px 32px;
-    margin-left: 30px;
-}
+nav a {
 
-.description{
-    position: relative;
-    margin: 200px 0 0 300px;
-
-}
-h1{
-    color:#005253;
-    font-size: 61px;
-    font-family: 'Yeseva One', serif;
-}
-
-p{
-    color: #6F6965;
+    color: #015253ff;
+    padding: 14px 16px;
+    font-family: 'Bebas Neue';
     font-size: 20px;
-    font-family: 'Archivo', serif;
+    font-weight: lighter;
+}
+
+nav a:hover {
+
+    color: #e57f45;
+}
+.intro {
+    width: 2540px;
+    height: 277;
+    background-image: url('img/Backround sushi3.svg');
+    background-repeat: no-repeat;
+    margin: 0px 300px;
+    padding: 0px;
+}
+span {
+    /* padding: 10px; */
+}
+
+
+
+
+.intro {
+    width: 2033px;
+    height: 740;
+    background-image: url('img/Backround sushi3.svg');
+    background-repeat: no-repeat;
+    margin: 140px 410px;
+    padding: 0px;
+    display: flex;
+}
+
+
+.maintext {
+    width: 630px;
+    height: 277px;
+    /* display: flex; */
+
+
+}
+
+.maintext2 {
+    width: 610px;
+    height: 102px;
+}
+
+
+.maintext3 {
+    width: 610px;
+    height: 93, 33px;
+}
+h1 {
+
+    font-family: 'Yeseva One', serif;
+    font-size: 70px;
+    font-weight: 300;
+    color: #015253ff
+}
+
+.sushipic {
+    width: 586x;
+    height: 600px;
+    padding-top: px;
+    padding-right: 0px;
+}
+
+h5 {
+    color: #6f695d;
+    font-size: 24px;
+}
+
+.ourrest {
+    background-color: #e57f45;
+    color: #f0e9da;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    width: 215px;
+    height: 53px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
