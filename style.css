@@ -1,9 +1,12 @@
 body {
   background-color: #f0e9d9ff;
-  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
 }
 
 header {
+
   display: flex;
   margin: 0px 260px;
 }
@@ -19,7 +22,10 @@ header {
   /* display: flex; */
   /* justify-content: space-evenly; */
   /* align-items: center; */
+
 }
+
+
 
 .header-right {
   display: flex;
@@ -32,18 +38,22 @@ header {
 
 .header-right a:hover {
   color: #e57f45;
+
 }
 
 .headerbutton {
+
+
   background-color: #008387;
   color: white;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   width: 147px;
   height: 52px;
   border-top-left-radius: 7px;
   border-bottom-right-radius: 7px;
   border: none;
+
 }
 
 .headerbutton:hover {
@@ -54,7 +64,7 @@ a {
   position: relative;
   color: #015253ff;
   text-decoration: none;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   font-weight: lighter;
 }
@@ -72,6 +82,7 @@ nav a::before {
   top: 24px;
   background: #015253ff;
 }
+
 nav a:hover::before {
   background-color: #e57f45;
 }
@@ -83,38 +94,48 @@ nav {
   align-items: center;
   padding-left: 50px;
   gap: 20px;
+
 }
 
 nav a {
+
   color: #015253ff;
   padding: 14px 16px;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   font-weight: lighter;
 }
 
 nav a:hover {
+
   color: #e57f45;
 }
 
 span {
   /* padding: 10px; */
 }
+.backgroundimg
+{padding-left: 25px;
+}
+
 
 .intro {
   width: 2033px;
   height: 740;
-  background-image: url("./img/Backroundsushi3.svg");
-  background-repeat: no-repeat;
   margin: 140px 310px;
-  padding: 0px;
   display: flex;
+  margin-top: -625px;
+
 }
+
+
 
 .maintext {
   width: 630px;
   height: 277px;
   /* display: flex; */
+
+
 }
 
 .maintext2 {
@@ -122,16 +143,18 @@ span {
   height: 102px;
 }
 
+
 .maintext3 {
   width: 610px;
   height: 93, 33px;
 }
 
 h1 {
-  font-family: "Yeseva One", serif;
+
+  font-family: 'Yeseva One', serif;
   font-size: 70px;
   font-weight: 300;
-  color: #015253ff;
+  color: #015253ff
 }
 
 .sushipic {
@@ -139,6 +162,7 @@ h1 {
   height: 600px;
   padding-top: px;
   padding-right: 0px;
+
 }
 
 h5 {
@@ -149,7 +173,7 @@ h5 {
 .ourrest {
   background-color: #e57f45;
   color: #f0e9da;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   width: 215px;
   height: 53px;
