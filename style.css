@@ -115,17 +115,20 @@ span {
   /* padding: 10px; */
 }
 .backgroundimg
-{padding-left: 25px;
+{
+  padding-left: 25px;
+  
 }
 
-
+/* width entfernen */
 .intro {
-  width: 2033px;
+
   height: 740;
-  margin: 140px 310px;
+  margin-top: 140px;
+  margin-left: 300px;
   display: flex;
   margin-top: -625px;
-
+  align-content: flex-start;
 }
 
 
@@ -148,8 +151,8 @@ span {
   width: 610px;
   height: 93, 33px;
 }
-
-h1 {
+/* Klasse h1 mit Schriftgröße 70px */
+.h1 {
 
   font-family: 'Yeseva One', serif;
   font-size: 70px;
