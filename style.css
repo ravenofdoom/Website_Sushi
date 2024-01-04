@@ -1,0 +1,50 @@
+body{
+    background-image: url(./img/sushi3-about-pic1.webp); 
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    paddin: 0;
+}
+
+
+.nav, .navbar {
+    display: flex;
+    background-color: #f0e9d9ff;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;;
+    font-size: 15px;
+
+}
+
+#table-button{
+    font-size: 1em;
+    display:inline;
+    height: 53px;
+    width: 146px;
+    color: white;
+    background-color: #008387;
+    border: none;
+    border-radius: 8px 0 8px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 16px 32px;
+    margin-left: 30px;
+}
+
+.description{
+    position: relative;
+    margin: 200px 0 0 300px;
+
+}
+h1{
+    color:#005253;
+    font-size: 61px;
+    font-family: 'Yeseva One', serif;
+}
+
+p{
+    color: #6F6965;
+    font-size: 20px;
+    font-family: 'Archivo', serif;
+}
