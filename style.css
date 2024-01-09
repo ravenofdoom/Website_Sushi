@@ -1,8 +1,10 @@
 body {
   background-color: #f0e9d9ff;
+
 }
 
 header {
+
   display: flex;
   margin: 8px 260px;
 }
@@ -19,7 +21,10 @@ header {
   /* display: flex; */
   /* justify-content: space-evenly; */
   /* align-items: center; */
+
 }
+
+
 
 .navi-right {
   display: flex;
@@ -32,25 +37,27 @@ header {
 
 .navi-right a:hover {
   color: #e57f45;
-  text-decoration: underline;
+  text-decoration: underline
 }
 
 .book_a_table {
+
+
   background-color: #008387;
   color: white;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   width: 147px;
   height: 52px;
   border-top-left-radius: 7px;
   border-bottom-right-radius: 7px;
   border: none;
-  cursor: pointer;
-}
 
+}
 
 .book_a_table:hover {
   background-color: #187978;
+  cursor: pointer;
 
 }
 
@@ -58,29 +65,33 @@ a {
   position: relative;
   color: #015253ff;
   text-decoration: none;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   font-weight: lighter;
 }
 
 nav {
+
   display: flex;
   background-color: #f0e9d9ff;
   justify-content: center;
   align-items: center;
   padding-left: 80px;
   gap: 40px;
+
 }
 
 nav a {
+
   color: #015253ff;
   padding: 14px 16px;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   font-weight: lighter;
 }
 
 nav a:hover {
+
   color: #e57f45;
 }
 
@@ -105,7 +116,9 @@ span {
 .backgroundimg {
   padding-left: 5px;
   margin-top: 40px;
+
 }
+
 
 .intro {
   /* width: 2033px; */
@@ -114,13 +127,19 @@ span {
   margin-top: -625px;
   display: flex;
   margin-right: auto;
+
+
 }
+
+
 
 .maintext {
   width: 630px;
   height: 277px;
   margin-top: 31px;
   /* display: flex; */
+
+
 }
 
 .maintext2 {
@@ -128,16 +147,26 @@ span {
   height: 102px;
 }
 
+
 .maintext3 {
   width: 610px;
   height: 93, 33px;
+
 }
 
 .headline {
-  font-family: "Yeseva One", serif;
+
+  font-family: 'Yeseva One', serif;
   font-size: 70px;
   font-weight: 300;
-  color: #015253ff;
+  color: #015253ff
+}
+
+h2 {
+  font-family: 'Yeseva One', serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #015253ff
 }
 
 h5 {
@@ -149,12 +178,14 @@ h5 {
   width: 586x;
   height: 600px;
   padding-top: 3px;
+
+
 }
 
 .ourrest {
   background-color: #e57f45;
   color: #f0e9da;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   width: 215px;
   height: 53px;
@@ -167,5 +198,3 @@ h5 {
 .ourrest:hover {
   background-color: #E5702E;
 }
-
-
